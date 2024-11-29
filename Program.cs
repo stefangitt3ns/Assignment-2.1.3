@@ -12,8 +12,11 @@ namespace Assignment_2._1._3
         static void Main(string[] args)
         {
             // Call Methods listed below
-
+            double otherVariable = CNum.Addition(3.5, 6.7);
+            double newVariable = CNum.Multiplication(3.5, 6.7, 132); 
+            Console.WriteLine($"The answers are {otherVariable} and {newVariable}");
             Console.ReadKey();
+            
         }
 
         public class CNum
